@@ -88,9 +88,9 @@ Confirm the deletion if prompted.
 Validation Rules
 The app enforces client-side validation for all form fields:
 
-First Name: Required, minimum 2 characters.
-Last Name: Required, minimum 2 characters.
-Email: Required, must follow a valid email format.
-Department: Required, minimum 3 characters.
+1. First Name: Required, minimum 2 characters.
+2. Last Name: Required, minimum 2 characters.
+3. Email: Required, must follow a valid email format.
+4. Department: Required, minimum 3 characters.
 
 
