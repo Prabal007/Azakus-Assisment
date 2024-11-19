@@ -1,0 +1,9 @@
+
+
+.user-list
+{
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

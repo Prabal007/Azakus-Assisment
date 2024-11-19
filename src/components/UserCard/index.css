@@ -1,0 +1,48 @@
+
+.user-card
+{
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+   
+  gap: 20px;
+  justify-content: center;
+  align-items: centers;
+  
+  width: 90%;
+  max-width: 450px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+   
+}
+
+.user-name
+{
+  color: white;
+  font-size: 32px;
+}
+
+.card-btn
+{
+  width: 100%;
+  background-color: #6366f1;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+  outline: none; 
+}
+
+.user-data
+{
+ color:white;
+ font-size: 22px;
+}
