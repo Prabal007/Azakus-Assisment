@@ -81,3 +81,28 @@ Click Save to update the user's information.
 Deleting a User
 Click the "Delete" button on a user card.
 Confirm the deletion if prompted.
+
+
+user-management-app/
+├── src/
+│   ├── components/
+│   │   ├── UserForm           # Form for adding/editing user details
+│   │   ├── UserList           # Displays the list of users
+│   │   ├── UserCard           # Individual user card component
+│   ├── App.js                 # Main application component
+│   ├── index.js               # Entry point for React
+├── public/
+│   ├── index.html             # Main HTML file
+├── package.json               # Project metadata and dependencies
+├── README.md                  # Project documentation
+
+
+Validation Rules
+The app enforces client-side validation for all form fields:
+
+First Name: Required, minimum 2 characters.
+Last Name: Required, minimum 2 characters.
+Email: Required, must follow a valid email format.
+Department: Required, minimum 3 characters.
+
+
