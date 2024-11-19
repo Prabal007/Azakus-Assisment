@@ -15,25 +15,24 @@ const App = () => {
 
   const USERS_PER_PAGE = 5;
 
-  // Define loadUsers using useCallback
+  
   const loadUsers = useCallback(() => {
     fetchUsers()
       .then((res) => {
         const start = (page - 1) * USERS_PER_PAGE;
         const end = start + USERS_PER_PAGE;
-        const newUsers = res.data.slice(start, end); // Simulate pagination
+        const newUsers = res.data.slice(start, end); 
         setUsers((prevUsers) => [...prevUsers, ...newUsers]);
         setHasMore(newUsers.length === USERS_PER_PAGE);
       })
       .catch((err) => alert("Error loading users: " + err.message));
-  }, [page]); // Add 'page' as a dependency
-
+  }, [page]);  
   useEffect(() => {
     loadUsers();
-  }, [loadUsers]); // Include 'loadUsers' in the dependency array
+  }, [loadUsers]);  
 
   const handleAddUser = (user) => {
-    setUsers((prevUsers) => [...prevUsers, { ...user, id: users.length + 1 }]); // Simulate adding user
+    setUsers((prevUsers) => [...prevUsers, { ...user, id: users.length + 1 }]); 
     setShowForm(false);
   };
 
