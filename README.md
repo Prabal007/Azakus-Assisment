@@ -22,7 +22,7 @@ Clone the project from your GitHub repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/username/user-management-app.git
+git clone  https://github.com/Prabal007/Azakus-Assisment.git
 2. Navigate to the Project Directory
 bash
 Copy code
